@@ -70,7 +70,7 @@ What would you like to use?
 (3) Exit
 """)
     choice = input("Enter your choice: ")
-    image_path = input("Drag and drop the image here: ")[1:-1] if operating_system() else input("Drop the image here: ")
+    image_path = input("Drag and drop the image here: ") # if operating_system() else input("Drop the image here: ")
     response = getResponse(image_path)
     parse_response(response)
 
